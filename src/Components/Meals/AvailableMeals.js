@@ -19,6 +19,7 @@ const AvailableMeals = () => {
       }).finally(() => {
         setIsLoading(false);
       });
+      setCount([]);
 
   }, []);
   if (isLoading) {
