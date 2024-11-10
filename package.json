@@ -1,6 +1,6 @@
 {
-  "name": "meal_order",
-  "homepage": "https://Nehad223.github.io/Meal_Order",
+  "name": "mealorder",
+  "homepage": "https://Nehad223.github.io/MealOrder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
