@@ -22,12 +22,6 @@ const AvailableMeals = () => {
       setCount([]);
 
   }, []);
-  if (isLoading) {
-    return (<div>Loading...</div>);
-  }
-  if (error) {
-    return( <div>error : {error.message}</div>);
-  }
   var root = document.querySelector(':root');
   root.style.setProperty('--visibility', 'visible');
   root.style.setProperty('--heightImg', '300px');
