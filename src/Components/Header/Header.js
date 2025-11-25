@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { CounterContext } from '../../App';
 import './Header.css';
-import headerimg from '../../Assets/Food.jpg';
+
 import HeaderButton from '../HeaderButton/HeaderButton';
 const Header = () => {
     return (
@@ -21,7 +21,8 @@ const Header = () => {
                 </div>
             </header>
             <div className='main'>
-                <img src={headerimg} title='header img' />
+             <img src="/Meal_Order/Food.jpg" />
+
             </div>
         </Fragment>
 
